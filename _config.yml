@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Phd. Student"
+title                    : "Actasclown"
 title_separator          : "-"
 name                     : &name "Yunqi He"
 description              : &description "Research Assistant at Northwestern University"
 url                      : https://actasclown.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "actasclown/actasclown.github.io"
+repository               : Actasclown
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yunqi He"
   avatar           : "avatar.jpg"
-  bio              : "Research assistant at Northwestern University. Research interest lies in logic encryption."
+  bio              : "Research assistant at Northwestern University. My research is related to attacks and defenses in logical encryption. I am also interested in machine learning in healthcare."
   location         : "Evanston, IL"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
+  instagram        : "https://www.instagram.com/mymothertellsmetosmile/"
+  linkedin         : "https://www.linkedin.com/in/heyunqi/"
   github           : "https://github.com/Actasclown"
   google_plus      :
   keybase          :
-  instagram        : "https://www.instagram.com/mymothertellsmetosmile/"
   # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/heyunqi/"
   # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
