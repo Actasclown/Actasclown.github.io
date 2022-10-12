@@ -8,7 +8,7 @@ author_profile: true
 <style>
 img{
     width: 90%;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 </style>
 
