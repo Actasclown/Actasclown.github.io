@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Actasclown"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Yunqi He"
 description              : &description "Research Assistant at Northwestern University"
@@ -85,6 +85,7 @@ author:
   bio              : "Research assistant at Northwestern University. My research is related to attacks and defenses in logical encryption. I am also interested in machine learning in healthcare."
   location         : "Evanston, IL"
   employer         :
+  cv               : "CV-11.16.pdf"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "yunqi.he@u.northwestern.edu"
