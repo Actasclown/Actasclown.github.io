@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Yunqi He"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -22,7 +22,6 @@ Recent News
 ======
 - 2022 - 2023. Received Northwestern Univerisity Ph.D. Fellowship.
 - Sept. - Nov., 2021. Served as a TA for COMP_ENG 334 "Fundamentals of Blockchains and Decentralization".
-- Nov. 7 2021. Finished 2021 Hot Chocolate Run 15k - Chicago.
 - Jun., 2017. Received "Excellent Graduation Design"(top 5%) of EECS Department, Peking University.
 - May., 2015. Received 3rd Prize in ACM Programming Contest of Peking University.
 
