@@ -34,7 +34,7 @@ I used to be a member of NU Crew.
 
 ![avatar](https://actasclown.github.io/images/guitar.jpg)
 
-I am a singing lover and can simply play folk guitar, electric bass and drum set.
+I'm a vocal lover and can simply play acoustic guitar, electric bass and drums.
 
 ## Meet My Beloved Girlfriend
 
