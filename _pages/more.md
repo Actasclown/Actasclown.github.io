@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "More"
 permalink: /more/
 author_profile: true
 ---
@@ -12,31 +12,31 @@ img{
 }
 </style>
 
-# Addicted to Sports
+## Addicted to Sports
 
-## Soccer
+### Soccer
 
 ![avatar](https://actasclown.github.io/images/soccer.jpg)
 
 I'm currently a winger in Team CNSquad.
 
-## Badminton
+### Badminton
 
 ![avatar](https://actasclown.github.io/images/badminton.jpg)
 
 I'm also an active member of [NU Badminton Club](https://northwestern.campuslabs.com/engage/organization/badminton).
 
-## Rowing
+### Rowing
 
 I used to be a member of NU Crew.
 
-# An Amateur Guitarist
+## An Amateur Guitarist
 
 ![avatar](https://actasclown.github.io/images/guitar.jpg)
 
 I am a singing lover and can simply play folk guitar, electric bass and drum set.
 
-# Meet My Beloved Girlfriend
+## Meet My Beloved Girlfriend
 
 ![avatar](https://actasclown.github.io/images/Cassiel.jpg)
 
