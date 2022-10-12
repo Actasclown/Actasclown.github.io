@@ -1,9 +1,16 @@
 ---
 layout: archive
-title: "More"
+title: ""
 permalink: /more/
 author_profile: true
 ---
+
+<style>
+img{
+    width: 60%;
+    padding-left: 20%;
+}
+</style>
 
 # Addicted to Sports
 
