@@ -35,9 +35,3 @@ I used to be a member of NU Crew.
 ![avatar](https://actasclown.github.io/images/guitar.jpg)
 
 I'm a vocal lover and can simply play acoustic guitar, electric bass and drums.
-
-## Meet My Beloved Girlfriend
-
-![avatar](https://actasclown.github.io/images/Cassiel.jpg)
-
-[Cassiel](https://www.instagram.com/caassiellx/) says hello to you. She is also a wildcat. 
