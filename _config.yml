@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
-name                     : &Name "Yunqi He"
-description              : &description ""
+name                     : "Yunqi He"
+description              : ""
 url                      : https://actasclown.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "actasclown/actasclown.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -84,10 +84,10 @@ author:
   avatar           : "avatar.jpg"
   bio              : "Phd. Student in Computer Engineering, Electrical and Computer Engineering Dept., Northwestern University"
   location         : "Evanston, IL"
-  cv               : "https://actasclown.github.io/files/CV-11.16.pdf"
+  cv               : "https://actasclown.github.io/files/Yunqi He - CV.pdf"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=k92ODt8AAAAJ&hl=en"
   email            : "yunqi.he@u.northwestern.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -110,7 +110,7 @@ author:
   # stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  # twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
