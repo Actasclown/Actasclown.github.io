@@ -12,4 +12,4 @@ This paper is about an automatic skin disease diagnosis architecture that combin
 
 [Download paper here](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10230768&isnumber=10230322)
 
-Recommended citation: Y. He, L. Cai, T. Cui, Y. Li and H. Zhou, "A Combination of DNN and BN for Automatic Skin Disease Diagnosis," 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI), Cartagena, Colombia, 2023, pp. 1-5, doi: 10.1109/ISBI53787.2023.10230768.
+[//]: # (Recommended citation: Y. He, L. Cai, T. Cui, Y. Li and H. Zhou, "A Combination of DNN and BN for Automatic Skin Disease Diagnosis," 2023 IEEE 20th International Symposium on Biomedical Imaging &#40;ISBI&#41;, Cartagena, Colombia, 2023, pp. 1-5, doi: 10.1109/ISBI53787.2023.10230768.)
