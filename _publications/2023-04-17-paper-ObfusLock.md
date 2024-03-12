@@ -8,8 +8,7 @@ venue: 'Design, Automation & Test in Europe Conference & Exhibition (DATE)'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10136964&isnumber=10136706'
 citation: 'Y. Li, G. Zhao, Y. He and H. Zhou, "ObfusLock: An Efficient Obfuscated Locking Framework for Circuit IP Protection†," 2023 Design, Automation & Test in Europe Conference & Exhibition (DATE), Antwerp, Belgium, 2023, pp. 1-6, doi: 10.23919/DATE56975.2023.10136964.'
 ---
-This paper is about ObfusLock, a novel logic locking scheme that simultaneously achieves I/O attack resilience, structural attack resilience, locking efficiency and protection diversity.
+With the rapid evolution of the IC supply chain, circuit IP protection has become a critical realistic issue for the semiconductor industry. One promising technique to resolve the issue is logic locking. It adds key inputs to the original circuit such that only authorized users can get the correct function, and it modifies the circuit to obfuscate it against structural analysis. However, there is a trilemma among locking, obfuscation, and efficiency within all existing logic locking methods that at most two of the objectives can be achieved. In this work, we propose ObfusLock, the first logic locking method that simultaneously achieves all three objectives: locking security, obfuscation safety, and locking efficiency. ObfusLock is based on solid mathematical proofs, incurs small overheads (<5% on average), and has passed experimental tests of various existing attacks.
 
 [Download paper here](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10136964&isnumber=10136706)
 
-[//]: # (Recommended citation: Y. Li, G. Zhao, Y. He and H. Zhou, "ObfusLock: An Efficient Obfuscated Locking Framework for Circuit IP Protection†," 2023 Design, Automation & Test in Europe Conference & Exhibition &#40;DATE&#41;, Antwerp, Belgium, 2023, pp. 1-6, doi: 10.23919/DATE56975.2023.10136964.)
