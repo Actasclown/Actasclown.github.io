@@ -82,8 +82,10 @@ analytics:
 author:
   name             : "Yunqi He"
   avatar           : "avatar.jpg"
-  bio              : "Phd. Candidate\nElectrical and Computer Engineering\nNorthwestern University"
-  location         : "Tech Building, Room L459\n2145 Sheridan Road\nEvanston, IL"
+  bio              : "Phd. Candidate, Electrical and Computer Engineering, Northwestern University"
+  location1         : "Tech Building, Room L459"
+  location2         : "2145 Sheridan Road"
+  location3         : "Evanston, IL"
   cv               : "https://actasclown.github.io/files/Yunqi He - CV.pdf"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
