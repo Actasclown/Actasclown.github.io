@@ -1,15 +1,15 @@
 ---
-title: "SE3: Sequential Equivalence Checking for Non-Cycle-Accurate Design Transformations †"
+title: "Paper Title Number 3"
 collection: publications
-permalink: /publication/2023-07-09-SE3
-excerpt: 'This paper is about SE3, an efficient sequential equivalence checker without assumption on cycle-accuracy, latch mapping, or I/O interface of the checked circuits.'
-date: 2023-07-09
-venue: '2023 60th ACM/IEEE Design Automation Conference (DAC)'
+permalink: /publication/2023-04-18-combination-of-DNN-and-BN
+excerpt: 'This paper is about an automatic skin disease diagnosis architecture that combines deep neural networks as nodes into Bayesian networks, which combines human knowledge with the perceptual results of deep learning tools.'
+date: 2023-04-18
+venue: '2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)'
 paperurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10230768&isnumber=10230322'
-citation: 'Y. Li, G. Zhao, Y. He and H. Zhou, "SE3: Sequential Equivalence Checking for Non-Cycle-Accurate Design Transformations †," 2023 60th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, 2023, pp. 1-6, doi: 10.1109/DAC56929.2023.10247912.'
+citation: 'Y. He, L. Cai, T. Cui, Y. Li and H. Zhou, "A Combination of DNN and BN for Automatic Skin Disease Diagnosis," 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI), Cartagena, Colombia, 2023, pp. 1-5, doi: 10.1109/ISBI53787.2023.10230768.'
 ---
-This paper is about SE3, an efficient sequential equivalence checker without assumption on cycle-accuracy, latch mapping, or I/O interface of the checked circuits.
+This paper is about an automatic skin disease diagnosis architecture that combines deep neural networks as nodes into Bayesian networks, which combines human knowledge with the perceptual results of deep learning tools.
 
 [Download paper here](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10230768&isnumber=10230322)
 
-Recommended citation: Y. Li, G. Zhao, Y. He and H. Zhou, "SE3: Sequential Equivalence Checking for Non-Cycle-Accurate Design Transformations †," 2023 60th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, 2023, pp. 1-6, doi: 10.1109/DAC56929.2023.10247912.
+Recommended citation: Y. He, L. Cai, T. Cui, Y. Li and H. Zhou, "A Combination of DNN and BN for Automatic Skin Disease Diagnosis," 2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI), Cartagena, Colombia, 2023, pp. 1-5, doi: 10.1109/ISBI53787.2023.10230768.
