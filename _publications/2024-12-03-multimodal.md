@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis"
 collection: publications
-permalink: /publication/2024-12-03-multimodal.md
+permalink: /publication/2024-12-03-multimodal
 excerpt: 'Proposed an extensible multimodal Bayesian network architecture that efficiently integrates deep neural networks with clinical metadata for skin disease diagnosis, achieving 19.3% accuracy improvement over baseline methods.'
 date: 2024-12-03
 venue: '2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)'
