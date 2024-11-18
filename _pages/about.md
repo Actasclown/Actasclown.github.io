@@ -20,7 +20,8 @@ About Me
 
 Recent News
 ======
-- Mar. 2024. Our new paper **Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis** was submitted to MICCAI 2024.
+- Nov. 2024. Our paper **DE2: SAT-based sequential logic decryption with a functional description** was accepted by DATE 2025.
+- Oct. 2024. Our paper **Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis** was accepted by BIBM 2024.
 - Feb. 2024. Our paper **Evaluating the Security of Logic Locking on Deep Neural Networks** was accepted by DAC 2024.
 - Jan. - Mar. 2024. Served as a TA for COMP_ENG 203 “Introduction to Computer Engineering”.
 

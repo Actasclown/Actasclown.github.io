@@ -1,0 +1,13 @@
+---
+title: "Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis"
+collection: publications
+permalink: /publication/2024-12-3-multimodal.md
+excerpt: 'Proposed an extensible multimodal Bayesian network architecture that efficiently integrates deep neural networks with clinical metadata for skin disease diagnosis, achieving 19.3% accuracy improvement over baseline methods.'
+date: 2024-12-03
+venue: '2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)'
+---
+Automatic diagnostic methods utilizing image analysis have seen a surge in development in recent years. However, achieving a comprehensive diagnosis necessitates considering clinical information. In the domain of skin disease, simply treating diagnosis as a multi-class image classification task poses inevitable bottlenecks. While existing methods incorporating Bayesian networks offer partial solutions, given the vast number of skin disease types, further integration with richer clinical information and diverse forms of deep neural networks would significantly escalate associated costs.
+This paper proposes an extensible diagnostic architecture. For newly added diseases and subsequently added clinical information, we integrate the output of deep neural networks into Bayesian networks more efficiently via semantic analysis. Through adjustments to node distribution types and the reduction of unnecessary connections, we expedite the development of a diagnostic system capable of addressing a wider range of skin diseases. Existing high-performing deep learning models, including multi-task and concept bottleneck, can be flexibly integrated into the system. Incorporating dermatologists' expertise and reusing trained neural networks additionally reduces system development costs. At the same time, our architecture ensures excellent diagnostic accuracy.
+Through experiments leveraging the PAD-UFES-20 and SkinCon benchmarks, we have demonstrated that this architecture achieves a balanced diagnostic accuracy improvement of 19.3\% over pure deep learning methods, with metrics including AUC surpassing those of existing published works. Our code can be accessed through the GitHub Repository: https://github.com/KevinInfinigon/MultimodalBayesianNetworks.
+
+[//]: # ([Download paper here]&#40;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10247912&isnumber=10247655&#41;)
