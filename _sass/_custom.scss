@@ -1,0 +1,81 @@
+/* Custom styles for the website */
+
+/* Override theme's default list item spacing */
+.page__content ul li,
+.page__content ol li,
+ul li,
+ol li {
+  margin-bottom: 0.2em !important;
+}
+
+/* Specific targeting for news list */
+.news-list-compact ul li,
+.news-list-compact ol li {
+  margin-bottom: 0.2em !important;
+}
+
+/* Nested lists */
+.page__content li ul,
+.page__content li ol {
+  margin-top: 0.2em !important;
+}
+
+/* Ensure last item has no bottom margin */
+.page__content ul li:last-child,
+.page__content ol li:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Projects page card layout */
+.projects-grid {
+  .project-card {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+
+    h3 {
+      color: #2563eb;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      font-size: 1.3em;
+    }
+
+    strong {
+      color: #374151;
+    }
+
+    ul {
+      margin-left: 1em;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h2 {
+    color: #1f2937;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+    &:first-of-type {
+      margin-top: 1em;
+    }
+  }
+}

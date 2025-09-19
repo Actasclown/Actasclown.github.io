@@ -1,2 +1,12 @@
 _site/
+.claude/
+.idea/
+abstracts.md
+*.log
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+node_modules/
+.vscode/
 

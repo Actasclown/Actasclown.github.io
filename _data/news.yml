@@ -1,0 +1,59 @@
+- date: "2025-09"
+  display_date: "Sep 2025"
+  content: "Serving as TA for COMP_ENG 203 \"Introduction to Computer Engineering\" (Fall 2025)."
+  category: "teaching"
+
+- date: "2025-09"
+  display_date: "Sep 2025"
+  content: "A paper on AI accelerator security with hardware-software co-design approaches passed phase 1 review at AAAI 2026."
+  category: "research"
+
+- date: "2025-09"
+  display_date: "Sep 2025"
+  content: "Submitted a paper on eFPGA-based hardware IP protection techniques to DATE 2026."
+  category: "research"
+
+- date: "2025-04"
+  display_date: "Apr 2025"
+  content: "Serving as TA for COMP_ENG 357 \"Design Automation in VLSI\" (Spring 2025)."
+  category: "teaching"
+
+- date: "2025-02"
+  display_date: "Feb 2025"
+  content: "Our paper **RE3: Finding Refinement Relations with Relational Mapping Abstraction** was accepted by DAC 2025."
+  category: "research"
+
+- date: "2024-11"
+  display_date: "Nov 2024"
+  content: "Our paper **DE2: SAT-based sequential logic decryption with a functional description** was accepted by DATE 2025."
+  category: "research"
+
+- date: "2024-10"
+  display_date: "Oct 2024"
+  content: "Our paper **Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis** was accepted by BIBM 2024."
+  category: "research"
+
+- date: "2024-02"
+  display_date: "Feb 2024"
+  content: "Our paper **Evaluating the Security of Logic Locking on Deep Neural Networks** was accepted by DAC 2024."
+  category: "research"
+
+- date: "2024-01"
+  display_date: "Jan 2024"
+  content: "Served as TA for COMP_ENG 203 \"Introduction to Computer Engineering\" (Winter 2024)."
+  category: "teaching"
+
+- date: "2023-01"
+  display_date: "Winter 2023"
+  content: "Served as TA for COMP_ENG 205 \"Fundamentals of Computer System Software\"."
+  category: "teaching"
+
+- date: "2023-04"
+  display_date: "Spring 2023"
+  content: "Served as TA for COMP_ENG 303 \"Advanced Digital Design\"."
+  category: "teaching"
+
+- date: "2021-09"
+  display_date: "Fall 2021"
+  content: "Served as TA for COMP_ENG 334 \"Fundamentals of Blockchains and Decentralization\"."
+  category: "teaching"

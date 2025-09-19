@@ -15,14 +15,17 @@ About Me
 
 - I am a research assistant in the [NuLogiCS Research Group](http://users.eecs.northwestern.edu/~haizhou/nulogics.html) of [Electrical and Computer Engineering Department](https://www.mccormick.northwestern.edu/electrical-computer/) advised by Dr. [Hai Zhou](http://users.eecs.northwestern.edu/~haizhou/) at Northwestern University.
 - I received a Bachelor of Sicence in Computer Science in 2017 from [Peking University](https://english.pku.edu.cn/), Beijing, China.
-- My research lies at the intersection of formal verification and machine learning.
+- My research lies at the intersection of Machine Learning and Electronic Design Automation (EDA), with a focus on hardware security.
 - I am actively looking for opportunities for academic cooperation and innovation and entrepreneurship.
 
 Recent News
 ======
-- Nov. 2024. Our paper **DE2: SAT-based sequential logic decryption with a functional description** was accepted by DATE 2025.
-- Oct. 2024. Our paper **Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis** was accepted by BIBM 2024.
-- Feb. 2024. Our paper **Evaluating the Security of Logic Locking on Deep Neural Networks** was accepted by DAC 2024.
-- Jan. - Mar. 2024. Served as a TA for COMP_ENG 203 “Introduction to Computer Engineering”.
+{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+{% assign recent_news = sorted_news | slice: 0, 6 -%}
+{%- for item in recent_news %}
+- **{{ item.display_date }}**. {{ item.content }}
+{%- endfor %}
+
+[View all news & updates →](/news/)
 
 
