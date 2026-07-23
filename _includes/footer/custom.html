@@ -54,4 +54,26 @@
 }());
 </script>
 
+<!-- Align the nav tab group with the content column (measures the sidebar) -->
+<script>
+(function () {
+  function alignNav() {
+    var vlinks = document.querySelector('.greedy-nav .visible-links');
+    var home = vlinks && vlinks.querySelector('.masthead__menu-item--lg');
+    if (!home) return;
+    var content = document.querySelector('.archive') || document.querySelector('.page');
+    if (!content || window.innerWidth < 1024) { home.style.removeProperty('--nav-home-w'); return; }
+    var w = content.getBoundingClientRect().left - vlinks.getBoundingClientRect().left;
+    if (w > 0) { home.style.setProperty('--nav-home-w', Math.round(w) + 'px'); }
+    else { home.style.removeProperty('--nav-home-w'); }
+  }
+  var raf;
+  function schedule() { if (raf) { cancelAnimationFrame(raf); } raf = requestAnimationFrame(alignNav); }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', alignNav); }
+  else { alignNav(); }
+  window.addEventListener('load', alignNav);
+  window.addEventListener('resize', schedule);
+}());
+</script>
+
 <!-- end custom footer snippets -->

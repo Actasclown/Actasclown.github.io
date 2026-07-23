@@ -117,8 +117,16 @@ ul li, ol li { margin-bottom: 0.25em; }
   border-bottom: 1px solid var(--line);
 }
 
+/* Nav is now fully custom (greedy-nav script detached) — lay it out with flex */
 .greedy-nav { background: transparent; }
-.greedy-nav .hidden-links { background: var(--surface); border: 1px solid var(--line); }
+.greedy-nav button { display: none; }
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.greedy-nav .visible-links > li { display: block; }
 
 /* pill hover / active in brand colours — echoes the Home pill buttons */
 .masthead__menu .masthead__menu-item a {
@@ -150,13 +158,16 @@ ul li, ol li { margin-bottom: 0.25em; }
 /* Keep the sticky sidebar clear of the sticky nav (avatar no longer clipped) */
 .sidebar.sticky { top: 5.5em; }
 
-/* Desktop: a gap between "Home" and the four tabs, so the tab group reads as
-   belonging to the content column. Uses margin only (excluded from the
-   greedy-nav width math) so the responsive nav never mis-collapses. */
+/* Desktop: "Home" fills the sidebar-width zone (right-aligned) so the four
+   tabs begin exactly at the content column. The zone width is measured at
+   runtime and set via --nav-home-w (falls back to the grid's 2/12 sidebar). */
 @media (min-width: 64em) {
-  .greedy-nav .visible-links .masthead__menu-item--lg + .masthead__menu-item {
-    margin-left: 3em;
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    flex: 0 0 var(--nav-home-w, 16.6667%);
+    text-align: right;
+    padding-right: 1em;
   }
+  .greedy-nav .visible-links .masthead__menu-item--lg a { display: inline-block; }
 }
 
 /* --------------------------------------------------------------------------
