@@ -62,7 +62,7 @@ Awards
 Teaching & Service
 ======
 * **Graduate Teaching Assistant** — Design Automation in VLSI, Advanced Digital Design, Computer System Software, Introduction to Computer Engineering (see [Service & Teaching](/service/) for details).
-* **Conference Reviewer** — ICCAD 2026, ASP-DAC 2026, HOST 2024/2025, AAAI 2026.
+* **Conference Reviewer** — AAAI 2027 (Program Committee), ICCAD 2026, ASP-DAC 2026, AAAI 2026, HOST 2024/2025.
 
 Publications
 ======

@@ -2,7 +2,7 @@
 title: "Quality-Preserving Legalization for Analytical Floorplanning"
 collection: publications
 permalink: /publication/2026-11-01-floorplan-legalization
-excerpt: 'A TwinTree-based quality-preserving legalizer that resolves overlaps and boundary violations from analytical floorplanning while staying close to the placer''s solution, preserving wirelength and area on industrial-scale benchmarks.'
+excerpt: 'A new legalization workflow that preserves the quality of analytical floorplanning: twin binary trees capture the relation between adjacent blocks and a differentiable model optimizes their coordinates, matching or surpassing commercial and open-source macro placers on the TILOS MacroPlacement benchmarks in post-route timing and wirelength.'
 date: 2026-11-01
 venue: 'International Conference on Computer-Aided Design (ICCAD)'
 project: 'physical-design-legalization'
@@ -15,4 +15,4 @@ authors: '<strong>Yunqi He</strong>, You Li, Ruofan Huang, Hai Zhou'
 
 ---
 
-Analytical floorplanning produces high-quality continuous solutions, but those solutions typically contain overlaps and boundary violations that must be removed before they are physically usable. This work presents a quality-preserving legalization approach that turns an analytical floorplan into a legal layout while staying close to the placer's original solution. It is built on a **TwinTree** representation of floorplan topology that supplies built-in topological invariants, with a **TAG** graph abstraction layered on TwinTree to capture adjacency and geometric relationships among modules. The legalization procedure resolves overlaps and boundary violations while preserving wirelength and area, and it integrates with analytical floorplanning and GPU-accelerated backends to provide a physical-aware legalization primitive validated on industrial-scale benchmarks.
+Floorplanning is a crucial step in VLSI physical design. Analytical floorplanning, which determines macro positions through electrostatic-based mixed-size placement, has become the most prevalent paradigm. However, the resulting floorplan contains inter-macro overlaps that must be resolved by a legalization step. Existing methods minimize displacement from the analytical floorplan without effective topological guidance, leading to inconsistent downstream quality. In this paper, we propose a new legalization workflow that preserves the high quality of analytical floorplanning. We leverage twin binary trees to capture the relation between adjacent blocks, and build a differentiable model to optimize their coordinates. Experiments on TILOS MacroPlacement benchmarks show that our method enables analytical floorplanning to match or surpass commercial and open-source macro placement tools in post-route timing and wirelength.

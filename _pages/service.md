@@ -45,6 +45,7 @@ author_profile: true
 ### Conference Review Activities
 
 **Peer Review Service:**
+- **AAAI 2027** - Conference on Artificial Intelligence (Program Committee)
 - **ICCAD 2026** - IEEE/ACM International Conference on Computer-Aided Design
 - **ASP-DAC 2026** - Asia and South Pacific Design Automation Conference
 - **AAAI 2026** - Conference on Artificial Intelligence
