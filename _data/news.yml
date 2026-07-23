@@ -1,3 +1,28 @@
+- date: "2026-07"
+  display_date: "Jul 2026"
+  content: "Our paper **Quality-Preserving Legalization for Analytical Floorplanning** was accepted to **ICCAD 2026** (to appear)."
+  category: "research"
+
+- date: "2026-06"
+  display_date: "Jun 2026"
+  content: "Returned to **Cadence Design Systems** as an R&D intern, building GNN-based routing congestion prediction for the Palladium (Z4) emulator."
+  category: "experience"
+
+- date: "2026-04"
+  display_date: "Apr 2026"
+  content: "Our journal paper **Graph Neural Network based Initialization for Timing Driven Placement** appeared in **ACM TODAES**."
+  category: "research"
+
+- date: "2026-01"
+  display_date: "Jan 2026"
+  content: "Awarded the **Northwestern University Terminal Year Fellowship** (2026)."
+  category: "award"
+
+- date: "2025-11"
+  display_date: "Nov 2025"
+  content: "Our paper **Physical-Aware eFPGA Redaction for Secure and Efficient Hardware IP Protection** was accepted to **DATE 2026**."
+  category: "research"
+
 - date: "2025-09"
   display_date: "Sep 2025"
   content: "Serving as TA for COMP_ENG 203 \"Introduction to Computer Engineering\" (Fall 2025)."
@@ -23,6 +48,11 @@
   content: "Our paper **RE3: Finding Refinement Relations with Relational Mapping Abstraction** was accepted by DAC 2025."
   category: "research"
 
+- date: "2024-12"
+  display_date: "Dec 2024"
+  content: "Our paper **LLA: Enhancing Security and Privacy for Generative Models with Logic-Locked Accelerators** was accepted by AAAI 2025."
+  category: "research"
+
 - date: "2024-11"
   display_date: "Nov 2024"
   content: "Our paper **DE2: SAT-based sequential logic decryption with a functional description** was accepted by DATE 2025."
@@ -32,6 +62,11 @@
   display_date: "Oct 2024"
   content: "Our paper **Multimodal Bayesian Networks for Automatic Skin Disease Diagnosis** was accepted by BIBM 2024."
   category: "research"
+
+- date: "2024-06"
+  display_date: "Jun 2024"
+  content: "Joined **Cadence Design Systems** as an R&D intern, integrating GPU-accelerated placement (DREAMPlace) into the Palladium (Z3) flow with 6–12× speedup on industrial designs."
+  category: "experience"
 
 - date: "2024-02"
   display_date: "Feb 2024"

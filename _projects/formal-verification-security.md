@@ -1,84 +1,47 @@
 ---
-title: "ML for Design Automation"
-excerpt: "Developing machine learning-powered algorithms for complex EDA challenges, including floorplan optimization, design space exploration, and formal verification enhancement."
-date: 2024-01-01
+title: "Formal Verification & Equivalence Checking"
+excerpt: "Rigorous, automated equivalence checking for sequential, non-cycle-accurate design transformations — SE3 and RE3 — plus formal reasoning about the robustness of learned models."
+date: 2023-07-01
 header:
   teaser: "/images/ml-eda-teaser.jpg"
 sidebar:
   - title: "Project Duration"
-    text: "2023 - Present"
+    text: "2022 - 2024"
   - title: "Collaboration"
-    text: "NuLogiCS Research Group, Industry Partners"
+    text: "NuLogiCS Research Group, Northwestern University"
   - title: "Keywords"
-    text: "Machine Learning, EDA Algorithms, Floorplan Optimization, Formal Verification"
+    text: "Formal Verification, Sequential Equivalence Checking, Refinement Relations, Robustness"
 ---
 
 ## Project Overview
 
-This project explores how machine learning can revolutionize traditional Electronic Design Automation workflows. We develop ML-powered algorithms for complex EDA challenges, with current focus on novel floorplan optimization techniques and automated verification methods.
+Modern design flows apply aggressive transformations that change a circuit's timing and cycle behavior for better performance–resource trade-offs. Checking that such transformations preserve functionality is critical and challenging, because most equivalence checkers assume cycle-accurate, latch-mapped circuits. This project builds **rigorous, automated equivalence-checking** methods that drop those assumptions, and extends formal reasoning to the reliability of learned models.
 
-## Research Motivation
+## Key Contributions
 
-Traditional EDA workflows face increasing complexity as chip designs grow larger and more sophisticated. Manual optimization and verification processes are becoming bottlenecks in the design cycle. Our work explores how machine learning can automate and enhance these critical EDA tasks.
+### SE3 — Sequential Equivalence Checking (DAC 2023)
+An efficient sequential equivalence checker with **no assumption** on cycle-accuracy, latch mapping, or I/O interface. It proves equivalence by computing an equivalence relation between the states of two circuits and uses syntax abstraction to accelerate the process, running significantly faster than state-of-the-art sequential equivalence checkers.
 
-## Current Research Focus
+### RE3 — Finding Refinement Relations (DAC 2025)
+A rigorous and efficient algorithm that **automatically discovers** concise, human-comprehensible refinement relations between two non-cycle-accurate designs — helping engineers understand the essence of a transformation. Applications include regression verification, behavioral model synthesis, and detecting and correcting errors in **LLM-generated RTL** designs.
 
-### Floorplan Algorithm Design
-- **Innovation**: Developing novel ML-powered placement and routing algorithms
-- **Objective**: Optimize power, performance, and area (PPA) metrics simultaneously
-- **Approach**: Leveraging deep learning for spatial relationship learning and optimization
+### Certifying Global Robustness for Deep Neural Networks (arXiv 2024)
+Bringing formal-methods reasoning to machine learning, this work certifies **global robustness** of deep neural networks — guarantees that hold across the input space rather than only around individual samples.
 
-### ML-Enhanced Verification
-- **RE3 Algorithm**: Automatic refinement relation discovery for non-cycle-accurate designs
-- **Impact**: Enables efficient equivalence checking for complex design transformations
-- **Application**: Facilitates error detection in LLM-generated RTL designs
+## Tools & Methodology
 
-## Technical Innovations
-
-### Machine Learning Methodologies
-- **Graph Neural Networks**: For capturing structural relationships in circuit designs
-- **Reinforcement Learning**: For optimization decision-making in placement algorithms
-- **Deep Learning**: For pattern recognition in design space exploration
-
-### EDA Integration
-- **Tool Compatibility**: Ensuring ML algorithms integrate with existing EDA toolchains
-- **Scalability**: Handling industrial-scale design complexities
-- **Performance**: Achieving better results than traditional heuristic methods
-
-## Research Applications
-
-### Placement and Routing
-- **Floorplan Optimization**: ML-driven spatial arrangement of circuit components
-- **Routing Efficiency**: AI-enhanced wire routing for timing and power optimization
-- **Multi-objective Design**: Simultaneous optimization across multiple design metrics
-
-### Design Verification
-- **Automated Checking**: ML-enhanced formal verification methods
-- **Equivalence Relations**: Automatic discovery of design transformation relationships
-- **Error Detection**: AI-assisted identification of design inconsistencies
-
-## Performance and Impact
-
-- **Algorithm Efficiency**: Significant improvement over traditional EDA heuristics
-- **Industry Relevance**: Focus on deployable solutions for real-world design flows
-- **Academic Recognition**: RE3 algorithm accepted at DAC 2025
-
-## Methodological Approach
-
-- **Data-Driven Design**: Leveraging large design databases for ML training
-- **Hybrid Methods**: Combining ML with traditional EDA algorithms
-- **Continuous Learning**: Adaptive algorithms that improve with experience
+- Built around commercial verification tools (Synopsys Hector, Cadence Jasper, Mentor SLEC) using refinement mapping.
+- Benchmark suites and experimental harnesses to evaluate correctness, soundness, and scalability across sequential and non-cycle-accurate transformations.
 
 ## Related Publications
 
-1. **Property Guided Secure Configuration Space Search** - ISC 2024
-2. **SE3: Sequential Equivalence Checking for Non-Cycle-Accurate Design Transformations** - DAC 2023
-3. **RE3: Finding Refinement Relations with Relational Mapping Abstraction** - DAC 2025
+1. **SE3: Sequential Equivalence Checking for Non-Cycle-Accurate Design Transformations** — DAC 2023
+2. **RE3: Finding Refinement Relations with Relational Mapping Abstraction** — DAC 2025
+3. **Certifying Global Robustness for Deep Neural Networks** — arXiv 2024
+4. **Property Guided Secure Configuration Space Search** — ISC 2024
 
-## Future Research Directions
+## Future Directions
 
-- **Machine Learning Integration**: Combining formal methods with ML for enhanced analysis
-- **Distributed Systems**: Extension to large-scale distributed system verification
-- **Real-time Verification**: Development of online verification capabilities
-- **Domain-Specific Languages**: Creating specialized languages for configuration specification
-- **Quantum System Verification**: Extending formal methods to quantum computing systems
+- Equivalence checking as a verification primitive within an agentic design flow.
+- Combining formal methods with ML for scalable analysis of large transformations.
+- Verifiable guarantees for autonomously transformed and LLM-generated designs.

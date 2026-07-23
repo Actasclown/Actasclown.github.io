@@ -1,12 +1,40 @@
+# --- Jekyll / site build ---
 _site/
-.claude/
-.idea/
-abstracts.md
-*.log
-.sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-vendor/
-node_modules/
-.vscode/
+.sass-cache/
 
+# --- Ruby / Bundler ---
+.bundle/
+vendor/
+
+# --- Node ---
+node_modules/
+
+# --- Python (scripts, uv, conda) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+.ipynb_checkpoints/
+
+# --- Editors / IDE ---
+.idea/
+.vscode/
+.claude/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- LaTeX working copy (source for the CV, not part of the site) ---
+overleaf-copy/
+
+# --- CVs: publish only the canonical one; keep all other PDFs local ---
+files/*.pdf
+!files/CV-Yunqi-26.pdf
+
+# --- Misc ---
+abstracts.md
+*.log

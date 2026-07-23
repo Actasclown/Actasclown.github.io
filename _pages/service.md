@@ -45,12 +45,26 @@ author_profile: true
 ### Conference Review Activities
 
 **Peer Review Service:**
-- **AAAI 2026** - Conference on Artificial Intelligence
+- **ICCAD 2026** - IEEE/ACM International Conference on Computer-Aided Design
 - **ASP-DAC 2026** - Asia and South Pacific Design Automation Conference
+- **AAAI 2026** - Conference on Artificial Intelligence
 - **HOST 2025** - IEEE International Symposium on Hardware Oriented Security and Trust
 - **HOST 2024** - IEEE International Symposium on Hardware Oriented Security and Trust
 
-*Peer review contributions span artificial intelligence, design automation, and hardware security domains, reflecting interdisciplinary research expertise.*
+*Peer review contributions span design automation, artificial intelligence, and hardware security domains, reflecting interdisciplinary research expertise.*
+
+---
+
+## Industry Experience
+
+### Cadence Design Systems — Research & Development Intern
+
+**Summer 2026 – Present** (returning intern)
+- Building **GNN-based routing congestion prediction** for the Palladium (Z4) emulator, forecasting congestion from netlist and placement features to guide routing on industrial designs.
+
+**Summer 2024**
+- Integrated **GPU-accelerated placement (DREAMPlace)** into Palladium (Z3) design flows, achieving **6–12× speedup** over CPU baselines on multi-million-cell designs while maintaining solution quality.
+- Analyzed CUDA kernel performance and built interfaces bridging academic GPU kernels with commercial flows for heterogeneous CPU–GPU execution.
 
 ---
 

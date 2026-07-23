@@ -1,83 +1,54 @@
 ---
-title: "Hardware Security Foundations"
-excerpt: "Developing robust logic locking schemes and attack methodologies for IP protection in integrated circuits, with focus on simultaneous security, obfuscation, and efficiency."
+title: "Hardware Security & IP Protection"
+excerpt: "Protecting hardware IP across the stack — physical-aware eFPGA redaction guided by GNNs, logic-locking schemes (ObfusLock, DE2), and extending circuit-protection techniques to secure AI accelerators (LLA)."
 date: 2023-04-01
 header:
   teaser: "/images/logic-locking-teaser.jpg"
 sidebar:
   - title: "Project Duration"
-    text: "2022 - Present"
+    text: "2021 - 2025"
   - title: "Collaboration"
     text: "NuLogiCS Research Group, Northwestern University"
   - title: "Keywords"
-    text: "Logic Locking, Hardware Security, IP Protection, Circuit Obfuscation"
+    text: "Hardware Security, eFPGA Redaction, Logic Locking, IP Protection, ML for Security"
 ---
 
 ## Project Overview
 
-This project develops advanced logic locking techniques to protect intellectual property (IP) in integrated circuits. Our research establishes foundational security methods that serve as building blocks for broader hardware protection strategies and form the basis for securing emerging AI/ML systems.
+This project protects intellectual property (IP) in integrated circuits — and increasingly, the AI systems that run on them. It spans **physical-aware eFPGA redaction**, foundational **logic-locking** schemes and attacks, and the transfer of circuit-protection techniques to secure machine-learning accelerators.
 
-## Research Focus
+## Physical-Aware eFPGA Redaction (DATE 2026)
 
-### Logic Locking & Circuit Protection
+**Physical-Aware eFPGA Redaction for Secure and Efficient Hardware IP Protection** casts redaction as a **graph-partitioning** problem solved with machine learning:
 
-**Core Innovation**: Developing robust logic locking schemes that achieve simultaneous security, obfuscation, and efficiency - addressing the fundamental challenge that existing methods sacrifice one aspect for others.
+- GNN models over gate-level netlists and placement features guide **constrained region selection** with embedding-driven clustering under area and timing budgets.
+- A multi-stage ML–EDA flow interleaves GNN-guided decisions with **Yosys, OpenSTA, and OpenROAD**.
+- The loop closes with **OpenFPGA**-based fabric generation, yielding an end-to-end pipeline for secure, verifiable design transformations that balances area, timing, and security.
 
-**Key Contributions**:
-- **ObfusLock**: First framework achieving simultaneous security, obfuscation, and efficiency
-- **DE2**: Novel SAT-based decryption using functional specifications
-- **DNN Logic Locking**: Security analysis of neural network protection schemes
+This work shows how strongly EDA quality depends on **physical-awareness** in ML representations — the same theme that runs through my physical-design research.
 
-## Technical Innovations
+## Logic Locking & Circuit Protection
 
-### ObfusLock Framework
-- **Innovation**: Mathematical foundation ensuring security guarantees while maintaining efficiency
-- **Performance**: <5% overhead on average with strong resistance to existing attacks
-- **Impact**: First comprehensive solution to the security-efficiency trade-off problem
+Foundational schemes and attacks that motivated the redaction work:
 
-### Attack Methodology Development
-- **Systematic Analysis**: Vulnerability assessment of current DNN logic locking schemes
-- **I/O Attack Methods**: Combining algebraic and learning-based approaches for comprehensive evaluation
-- **Security Evaluation**: Establishing benchmarks for measuring protection effectiveness
+- **ObfusLock** (DATE 2023): the first logic-locking method to simultaneously achieve locking security, obfuscation safety, and efficiency, with solid mathematical proofs and <5% average overhead.
+- **DE2** (DATE 2025): a SAT-based sequential logic decryption algorithm that attacks locked circuits using only a high-level functional specification, with an automatic alignment mechanism and the LIM decryption core.
+- **DNN Logic Locking** (DAC 2024): a systematic I/O attack demonstrating that HPNN-style logic locking is insecure on deep neural networks.
 
-### Formal Verification Integration
-- **Security Analysis**: Formal methods for proving protection guarantees
-- **Attack Resilience**: Comprehensive evaluation against state-of-the-art attacks
-- **Mathematical Foundations**: Solid theoretical basis for security claims
+## Securing AI Accelerators
 
-## Research Applications
-
-### Circuit IP Protection
-- **Logic Locking**: Advanced key-based protection schemes for integrated circuits
-- **Structural Obfuscation**: Hiding circuit functionality from reverse engineering
-- **Multi-layered Security**: Combined protection strategies for comprehensive defense
-
-### Attack Analysis
-- **Vulnerability Discovery**: Systematic analysis of protection scheme weaknesses
-- **Attack Development**: Creating new attack methods to improve defense strategies
-- **Security Benchmarking**: Establishing evaluation standards for the field
-
-## Performance and Impact
-
-- **Industry Relevance**: Focus on deployable solutions with practical overhead constraints
-- **Academic Recognition**: 3 published papers at top-tier conferences
-- **Foundational Work**: Establishing security principles for emerging computing paradigms
-
-## Methodological Approach
-
-- **Mathematical Rigor**: Formal proofs and security guarantees
-- **Practical Validation**: Extensive experimental evaluation on real circuits
-- **Comprehensive Analysis**: Both protection development and attack methodology
+**LLA: Enhancing Security and Privacy for Generative Models with Logic-Locked Accelerators** (AAAI 2025) extends hardware logic-locking from circuit IP protection to the AI setting, key-locking accelerators so that only authorized users obtain correct generative-model behavior — a bidirectional synergy between EDA security and modern ML systems.
 
 ## Related Publications
 
-1. **ObfusLock: An Efficient Obfuscated Locking Framework for Circuit IP Protection** - DATE 2023
-2. **Evaluating the Security of Logic Locking on Deep Neural Networks** - DAC 2024
-3. **DE2: SAT-Based Sequential Logic Decryption with a Functional Description** - DATE 2025
+1. **Physical-Aware eFPGA Redaction for Secure and Efficient Hardware IP Protection** — DATE 2026
+2. **LLA: Enhancing Security and Privacy for Generative Models with Logic-Locked Accelerators** — AAAI 2025
+3. **DE2: SAT-Based Sequential Logic Decryption with a Functional Description** — DATE 2025
+4. **Evaluating the Security of Logic Locking on Deep Neural Networks** — DAC 2024
+5. **ObfusLock: An Efficient Obfuscated Locking Framework for Circuit IP Protection** — DATE 2023
 
-## Future Research Directions
+## Future Directions
 
-- **Hardware-AI Security Synergy**: Extending circuit protection techniques to secure AI model parameters
-- **Quantum-Resistant Methods**: Developing protection schemes for quantum computing era
-- **Emerging Paradigms**: Logic locking for neuromorphic and edge computing systems
-- **Industry Integration**: Creating tools for seamless EDA workflow integration
+- Physical-aware redaction integrated with placement/legalization for tighter PPA–security trade-offs.
+- Security primitives exposed as constraints within an agentic design flow.
+- Extending hardware-rooted protection to broader classes of AI accelerators.
