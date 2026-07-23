@@ -1,3 +1,28 @@
 <!-- start custom footer snippets -->
-<!--<a href="/sitemap/">Sitemap</a>-->
+
+<!-- Scroll-reveal (fade/slide-in on scroll); respects reduced-motion via CSS -->
+<script>
+(function () {
+  function initReveal() {
+    var els = document.querySelectorAll('.reveal');
+    if (!els.length) return;
+    if (!('IntersectionObserver' in window)) {
+      for (var i = 0; i < els.length; i++) { els[i].classList.add('is-visible'); }
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    for (var j = 0; j < els.length; j++) { io.observe(els[j]); }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initReveal);
+  } else {
+    initReveal();
+  }
+}());
+</script>
+
 <!-- end custom footer snippets -->
