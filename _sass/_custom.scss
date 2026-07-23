@@ -150,23 +150,12 @@ ul li, ol li { margin-bottom: 0.25em; }
 /* Keep the sticky sidebar clear of the sticky nav (avatar no longer clipped) */
 .sidebar.sticky { top: 5.5em; }
 
-/* Desktop: mirror the two-column layout in the nav — "Home" sits over the
-   sidebar (right-aligned), the four tabs over the content column
-   (left-aligned), with a divider gap between them. */
+/* Desktop: a gap between "Home" and the four tabs, so the tab group reads as
+   belonging to the content column. Uses margin only (excluded from the
+   greedy-nav width math) so the responsive nav never mis-collapses. */
 @media (min-width: 64em) {
-  .greedy-nav .visible-links {
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-  .greedy-nav .visible-links > li { display: block; }
-  .greedy-nav .visible-links .masthead__menu-item--lg {
-    flex: 0 0 16.6667%;
-    text-align: right;
-  }
-  .greedy-nav .visible-links .masthead__menu-item--lg a { display: inline-block; }
   .greedy-nav .visible-links .masthead__menu-item--lg + .masthead__menu-item {
-    margin-left: 1.6em;
+    margin-left: 3em;
   }
 }
 
