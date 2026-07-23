@@ -120,29 +120,55 @@ ul li, ol li { margin-bottom: 0.25em; }
 .greedy-nav { background: transparent; }
 .greedy-nav .hidden-links { background: var(--surface); border: 1px solid var(--line); }
 
+/* pill hover / active in brand colours — echoes the Home pill buttons */
 .masthead__menu .masthead__menu-item a {
-  position: relative;
+  margin: 0 0.15rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 980px;
   color: var(--ink);
-  transition: color 0.2s ease;
+  font-weight: 500;
+  transition: color 0.2s ease, background-color 0.2s ease;
 
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 2px;
-    border-radius: 2px;
-    background: var(--grad);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.25s ease;
-  }
-
-  &:hover { color: var(--brand); }
-  &:hover::after { transform: scaleX(1); }
+  &:hover { color: var(--brand); background: var(--brand-tint); }
 }
-.masthead__menu .masthead__menu-item--lg a::after { display: none; }
+.masthead__menu .masthead__menu-item.active a {
+  color: var(--brand);
+  background: var(--brand-tint);
+  font-weight: 600;
+}
+/* site title stays a plain wordmark (no pill) */
+.masthead__menu .masthead__menu-item--lg a {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background: none;
+  font-weight: 700;
+
+  &:hover { background: none; color: var(--brand); }
+}
+
+/* Keep the sticky sidebar clear of the sticky nav (avatar no longer clipped) */
+.sidebar.sticky { top: 5.5em; }
+
+/* Desktop: mirror the two-column layout in the nav — "Home" sits over the
+   sidebar (right-aligned), the four tabs over the content column
+   (left-aligned), with a divider gap between them. */
+@media (min-width: 64em) {
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .greedy-nav .visible-links > li { display: block; }
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    flex: 0 0 16.6667%;
+    text-align: right;
+  }
+  .greedy-nav .visible-links .masthead__menu-item--lg a { display: inline-block; }
+  .greedy-nav .visible-links .masthead__menu-item--lg + .masthead__menu-item {
+    margin-left: 1.6em;
+  }
+}
 
 /* --------------------------------------------------------------------------
    Sidebar author profile (inner pages)
