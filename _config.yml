@@ -81,7 +81,7 @@ analytics:
 # Fill ONE of these, then push. Leave both blank to disable.
 #   GoatCounter: sign up at https://www.goatcounter.com/ and put your site code
 #   (the "<code>" in <code>.goatcounter.com) below.
-goatcounter_code         :   # e.g. "yunqihe"
+goatcounter_code         : actasclown  # -> actasclown.goatcounter.com
 #   Google Analytics 4: create a property and paste its Measurement ID (G-XXXXXXXXXX).
 google_analytics_id      :   # e.g. "G-XXXXXXXXXX"
 
