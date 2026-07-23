@@ -9,20 +9,21 @@ redirect_from:
 ---
 
 <section class="hero">
-  <img class="hero__photo reveal" src="/images/avatar.jpg" alt="Yunqi He" width="128" height="128" />
-  <p class="hero__eyebrow reveal">Ph.D. Candidate · Northwestern University</p>
-  <h1 class="hero__title reveal">Yunqi He</h1>
-  <p class="hero__lead reveal">Physical-design methodology &amp; ML-driven automation for SoC&nbsp;PPA.</p>
-  <p class="hero__sub reveal">I build quality-preserving legalization, GPU-accelerated placement, and GNN- and agent-driven engines that drive the full floorplan-to-route flow — turning research primitives into reliable, production-grade design automation.</p>
-  <div class="hero__cta reveal">
-    <a class="btn-apple" href="/projects/">Explore research</a>
-    <a class="btn-apple btn-apple--ghost" href="/files/CV-Yunqi-26.pdf">Download CV</a>
-  </div>
-  <div class="hero__links reveal">
-    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
-    <a href="mailto:{{ site.author.email }}">Email</a>
+  <div class="hero__inner">
+    <p class="hero__eyebrow reveal">Ph.D. Candidate · Northwestern University</p>
+    <h1 class="hero__title reveal">Yunqi He</h1>
+    <p class="hero__lead reveal">Physical-design methodology &amp; ML-driven automation for SoC&nbsp;PPA.</p>
+    <p class="hero__sub reveal">I build quality-preserving legalization, GPU-accelerated placement, and GNN- and agent-driven engines that drive the full floorplan-to-route flow — turning research primitives into reliable, production-grade design automation.</p>
+    <div class="hero__cta reveal">
+      <a class="btn-apple" href="/projects/">Explore research</a>
+      <a class="btn-apple btn-apple--ghost" href="/files/CV-Yunqi-26.pdf">Download CV</a>
+    </div>
+    <div class="hero__links reveal">
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    </div>
   </div>
 </section>
 
@@ -56,10 +57,10 @@ redirect_from:
 <section class="home-section">
   <div class="home-wrap">
     <div class="stats reveal">
-      <div class="stat"><span class="stat__num">10+</span><span class="stat__label">Publications</span></div>
-      <div class="stat"><span class="stat__num">2×</span><span class="stat__label">Cadence R&amp;D Intern</span></div>
-      <div class="stat"><span class="stat__num">ICCAD ’26</span><span class="stat__label">Latest — legalization</span></div>
-      <div class="stat"><span class="stat__num">Dec ’26</span><span class="stat__label">Ph.D. (expected)</span></div>
+      <div class="stat"><span class="stat__num">10+</span><span class="stat__label">Peer-reviewed papers</span></div>
+      <div class="stat"><span class="stat__num">6–12×</span><span class="stat__label">GPU placement speedup</span></div>
+      <div class="stat"><span class="stat__num">2×</span><span class="stat__label">Cadence R&amp;D internships</span></div>
+      <div class="stat"><span class="stat__num">5</span><span class="stat__label">Top-tier venues<br><small>ICCAD · DAC · DATE · AAAI · TODAES</small></span></div>
     </div>
   </div>
 </section>
