@@ -58,7 +58,7 @@ redirect_from:
   <div class="home-wrap">
     <div class="stats reveal">
       <div class="stat"><span class="stat__num">10+</span><span class="stat__label">Peer-reviewed papers</span></div>
-      <div class="stat"><span class="stat__num">6–12×</span><span class="stat__label">GPU placement speedup</span></div>
+      <div class="stat"><span class="stat__num">ICCAD ’26</span><span class="stat__label">Quality-preserving legalization</span></div>
       <div class="stat"><span class="stat__num">2×</span><span class="stat__label">Cadence R&amp;D internships</span></div>
       <div class="stat"><span class="stat__num">5</span><span class="stat__label">Top-tier venues<br><small>ICCAD · DAC · DATE · AAAI · TODAES</small></span></div>
     </div>

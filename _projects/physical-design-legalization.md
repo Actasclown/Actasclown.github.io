@@ -19,12 +19,11 @@ This project develops **physical-design methodology** and production-oriented fl
 
 ## Core Contribution: Quality-Preserving Legalization
 
-**Quality-Preserving Legalization for Analytical Floorplanning** (ICCAD 2026) provides a legalization primitive that stays close to the analytical placer's solution while removing overlaps and boundary violations.
+**Quality-Preserving Legalization for Analytical Floorplanning** (ICCAD 2026) resolves the inter-macro overlaps left by electrostatic-based analytical floorplanning **without disrupting the layout's topology** — the main reason existing legalizers lose downstream quality.
 
-- **TwinTree representation**: a floorplan-topology representation that supplies built-in topological invariants, keeping intermediate states physically meaningful.
-- **TAG graph abstraction**: layered on TwinTree to capture adjacency and geometric relationships among modules.
-- **Quality preservation**: resolves overlaps and boundary violations while preserving wirelength and area, rather than re-solving the layout from scratch.
-- **Validation**: integrated with analytical floorplanning and GPU-accelerated backends, validated on industrial-scale benchmarks.
+- **Twin binary trees** capture the adjacency relations between blocks, giving the legalizer explicit topological guidance instead of pure displacement minimization.
+- **Differentiable model**: block coordinates are optimized through a differentiable formulation that preserves the quality of the analytical floorplan.
+- **Evaluation (TILOS MacroPlacement)**: paired with an analytical placer, the pipeline matches or surpasses commercial and open-source macro placers in post-route timing and wirelength.
 
 ## GPU-Accelerated Placement (Industry)
 
