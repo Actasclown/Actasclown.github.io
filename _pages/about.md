@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <section class="hero">
+  <img class="hero__photo reveal" src="/images/avatar.jpg" alt="Yunqi He" width="128" height="128" />
   <p class="hero__eyebrow reveal">Ph.D. Candidate · Northwestern University</p>
   <h1 class="hero__title reveal">Yunqi He</h1>
   <p class="hero__lead reveal">Physical-design methodology &amp; ML-driven automation for SoC&nbsp;PPA.</p>
@@ -58,7 +59,7 @@ redirect_from:
       <div class="stat"><span class="stat__num">10+</span><span class="stat__label">Publications</span></div>
       <div class="stat"><span class="stat__num">2×</span><span class="stat__label">Cadence R&amp;D Intern</span></div>
       <div class="stat"><span class="stat__num">ICCAD ’26</span><span class="stat__label">Latest — legalization</span></div>
-      <div class="stat"><span class="stat__num">AAAI ’27</span><span class="stat__label">Program Committee</span></div>
+      <div class="stat"><span class="stat__num">Dec ’26</span><span class="stat__label">Ph.D. (expected)</span></div>
     </div>
   </div>
 </section>
