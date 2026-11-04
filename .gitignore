@@ -34,6 +34,9 @@ overleaf-copy/
 # --- CVs: publish only the canonical one; keep all other PDFs local ---
 files/*.pdf
 !files/CV-Yunqi-26.pdf
+# --- Papers and talks that are meant to be public ---
+!files/iccad2026-paper39.pdf
+!files/iccad2026-paper39-slides.pdf
 
 # --- Misc ---
 abstracts.md

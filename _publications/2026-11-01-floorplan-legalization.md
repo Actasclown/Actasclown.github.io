@@ -7,11 +7,16 @@ date: 2026-11-01
 venue: 'International Conference on Computer-Aided Design (ICCAD)'
 project: 'physical-design-legalization'
 authors: '<strong>Yunqi He</strong>, You Li, Ruofan Huang, Hai Zhou'
+paperurl: '/files/iccad2026-paper39.pdf'
 ---
 
 **Authors:** **<span style="color: #2563eb;">Yunqi He</span>**, You Li, Ruofan Huang, Hai Zhou
 
-**Venue:** International Conference on Computer-Aided Design (ICCAD), IEEE/ACM, 2026 — *To appear*
+**Venue:** IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, CA, November 2026
+
+**Download:** [Paper (PDF)](/files/iccad2026-paper39.pdf) · [Slides (PDF)](/files/iccad2026-paper39-slides.pdf) · [ACM Digital Library](https://doi.org/10.1145/3831252.3833939)
+
+**Project page:** [Physical Design Methodology & Legalization](/projects/physical-design-legalization/)
 
 ---
 
