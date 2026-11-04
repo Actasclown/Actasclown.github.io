@@ -147,7 +147,7 @@ author_profile: false
 <div class="paper__back">
   <a href="/">← Back to Yunqi He's home page</a>
   <a href="/projects/physical-design-legalization/">Project page</a>
-  <a href="/publication/2026-11-01-floorplan-legalization">Publication entry</a>
+  <a href="/publications/">All publications</a>
 </div>
 
 </div>

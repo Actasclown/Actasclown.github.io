@@ -8,6 +8,10 @@ venue: 'International Conference on Computer-Aided Design (ICCAD)'
 project: 'physical-design-legalization'
 authors: '<strong>Yunqi He</strong>, You Li, Ruofan Huang, Hai Zhou'
 paperurl: '/files/iccad2026-paper39.pdf'
+# The publications list links the title straight to the paper page, and the
+# entry's own URL redirects there, so the rich page is the single source.
+link: /papers/qp-legalization-iccad26/
+redirect_to: /papers/qp-legalization-iccad26/
 ---
 
 **Authors:** **<span style="color: #2563eb;">Yunqi He</span>**, You Li, Ruofan Huang, Hai Zhou
