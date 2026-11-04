@@ -16,7 +16,7 @@ paperurl: '/files/iccad2026-paper39.pdf'
 
 **Download:** [Paper (PDF)](/files/iccad2026-paper39.pdf) · [Slides (PDF)](/files/iccad2026-paper39-slides.pdf) · [ACM Digital Library](https://doi.org/10.1145/3831252.3833939)
 
-**Project page:** [Physical Design Methodology & Legalization](/projects/physical-design-legalization/)
+**Paper page:** [figures, slides, and BibTeX](/papers/qp-legalization-iccad26/) · **Project:** [Physical Design Methodology & Legalization](/projects/physical-design-legalization/)
 
 ---
 
